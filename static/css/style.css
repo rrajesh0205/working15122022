@@ -9,8 +9,8 @@ body, html
   margin: 0; 
   padding: 0; 
   outline: 0;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 24px;
+  font-family: 'HelveticaNeueLTPro', sans-serif;
+  font-size: 14px;
   background-color: white  ;
   overflow-x: hidden;
   overflow-y: auto;
@@ -38,11 +38,11 @@ body, html
 input[type="text"]
 {
     width: 100%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'HelveticaNeueLTPro', serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1.5px;
-    text-transform: uppercase;
+    
     height: 25px;
     
 }
@@ -50,11 +50,10 @@ input[type="text"]
 textarea
 {
     width: 100%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'HelveticaNeueLTPro', serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1.5px;
-    text-transform: uppercase;
     font-family: inherit;
     
 }
@@ -123,7 +122,7 @@ a:hover{
   height:100%;*/
 }
 form{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'HelveticaNeueLTPro', sans-serif;
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -132,7 +131,7 @@ form{
 }
 
 .article{
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'HelveticaNeueLTPro', serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1.5px;
@@ -160,7 +159,7 @@ form{
 
     /*text-shadow: none;*/
     text-transform: uppercase;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'HelveticaNeueLTPro', serif;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -176,7 +175,7 @@ form{
 }
 
 .myDiv {
-    font-family: 'Work Sans', sans-serif;    
+    font-family: 'HelveticaNeueLTPro', sans-serif;    
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 48px;
@@ -194,7 +193,7 @@ form{
 }
 
 .myDiv1 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 24px;
@@ -210,7 +209,7 @@ form{
 /* Add a black background color to the top navigation */
 
 .modmenu {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'HelveticaNeueLTPro', sans-serif;
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 15px;
@@ -219,7 +218,7 @@ form{
   float: right;
 }
 .topnav {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 20px;  
@@ -232,7 +231,7 @@ form{
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 20px;
@@ -247,7 +246,7 @@ form{
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 20px;    
@@ -257,7 +256,7 @@ form{
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 20px;  
