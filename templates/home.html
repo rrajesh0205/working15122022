@@ -84,11 +84,13 @@
                 <img src="{% static 'trash.png' %}" width = "16" height = "16"/></a>
                 &nbsp;&nbsp;
             </div>
-                <p style="font-weight: bold;"><u><a href="{% url 'detail' article.pk %}">{{ article.title }}</a></u><p>
+                
 
             <div class="artbody">
-                {{ article.body }}
+                <a href="{% url 'detail' article.pk %}">{{ article.title }}</a>
             </div>
+            {{ article.body }}
+            <br>
             <br>
                 
             {% if article.img.url != Null %}
