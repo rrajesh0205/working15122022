@@ -146,18 +146,17 @@ form{
     
 }
 .artbody{
-    /*font-family: 'Gilda Display', serif;*/
-    font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
     font-size: 24px;
     text-transform: lowercase;    
     }
 
 
 .artbody_new{
-  /*font-family: 'Gilda Display', serif;  */
-  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;    font-weight: 300;
   text-transform: lowercase;
-  font-size: 16px;
+  font-size: 15px;
   
    /*background-color:black;*/
   /*top: 50%;*/
@@ -293,7 +292,7 @@ form{
   position: relative;
   top: -55px;
   left: 25px;
-  width: 100%;
+  /*width: 100%;*/
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -317,8 +316,8 @@ form{
 #menuToggle input
 {
   display: block;
-  width: 40px;
-  height: 32px;
+  /*width: 40px;
+  height: 32px;*/
   position: absolute;
   top: -7px;
   left: -5px;  
